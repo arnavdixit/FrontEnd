@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;900&display=swap');
+
+/*************************** Element Styles ***************************/
+
+body{
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1{
+    width: 75%;
+    color: #742174;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h3{
+    width: 80%;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #937B92;
+}
+
+h4{
+    color: #742174;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/*************************** Class Styles ***************************/
+
+.background-img-1{
+    position: absolute;
+    top: 0;
+}
+
+.background-img-2{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.flex-container-1{
+    display: flex;
+    
+    align-items: center;
+    margin: 5% 10% 4% 10%;
+}
+
+.flex-item{
+    width: 50%;
+}
+
+.small-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F7F2F7;
+    border-radius: 10px;
+    width: 65%;
+    margin-top: 2%;
+}
+
+.small-box-2{
+    position: relative;
+    left: 5%;
+}
+
+.small-box-3{
+    position: relative;
+    left: 12%;
+}
+
+.review-container{
+    display: flex;
+    align-items: center;
+    margin: 5% 2% 4% 10%;
+}
+
+
+.review-img{
+    border-radius: 100%;
+    width: 40%;
+    grid-area: img;
+}
+
+.large-box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "img info"
+                         "review review";
+    background-color: #581958;
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 2%;
+    width: 20%;
+}
+
+.info{
+    grid-area: info;
+
+}
+
+.name{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.buyer{
+    color: #c7759a;
+    font-size: 0.8rem;
+}
+
+.review{
+    color: white;
+    font-size: 0.68rem;
+    line-height: 1.5;
+    text-align: left;
+    grid-area: review;
+}
+
+.large-box-1{
+    transform: translateY(-40px);
+}
+
+.large-box-2{
+    transform: translateY(-20px);
+}
+
+.large-box-3{
+    transform: translateY(10px);
+}
